@@ -1,0 +1,31 @@
+.user-name {
+  font-weight: bold;
+  color: red;
+}
+.user-image {
+  border-radius: 50%;
+
+  height: 100px;
+}
+.user-date {
+  color: white;
+}
+.user-container {
+  background: teal;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 24px;
+  display: flex;
+  gap: 10px;
+  max-width: 400px;
+  transition: 0.5s;
+}
+.user-container:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
